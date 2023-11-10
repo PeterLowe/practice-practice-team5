@@ -1,16 +1,20 @@
-//odd Sofiia Pankiv
+//even Sofiia Pankiv
 
 #include<iostream>
 
 int main()
 {
-	// user input number
-	int number = 8;
+	// user inouted number
+	int input =7;
 
-	std::cout << "What is your number? " << std::endl;
-	std::cin >> number;
+	std::cout << "Think of a number? " << std::endl;
+	std::cin >> input;
 
-	if (number % 2 == 0) {
+	if (input % 2 == 1) {
+		std::cout << "The number was odd" << std::endl;
+	}
+
+	if (input % 2 == 0) {
 		std::cout << "The number is even" << std::endl;
 	}
 
